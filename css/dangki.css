@@ -1,0 +1,43 @@
+.abc{
+    width: 600px;
+    background-color:rgb(238, 201, 201);
+    box-shadow: 0 0 8px gray;
+    margin-left:400px ;
+    margin-top: 60px;
+    padding-left: 50px;
+    font-size: 25px;
+
+}
+.txt{
+    background-color: rgb(224, 131, 131);
+    color: black;
+    border: 1px none gray;
+    text-align: left;
+    width: 485px;
+}
+.btn{
+    background-color: rgb(224, 131, 131);
+    width: 120px;
+    padding: 10px;
+    font-size: 22px;
+    border: 1px solid orangered;
+    
+}
+.dongcuoi{
+    text-align: right;
+}
+h1{
+    color: rgb(241, 100, 135);
+    font-size: 30px;
+    margin-top: 0px;
+    text-align: center;
+}
+#ht{
+    height: 30px;
+}
+#ha{
+    height: 30px;
+}
+#qg{
+    height: 30px;
+}

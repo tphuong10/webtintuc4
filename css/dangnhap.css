@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo&family=Island+Moments&family=Oswald:wght@200;300&family=Pacifico&family=Quicksand:wght@500;600;700&family=Quintessential&display=swap');
+html{
+    font-family: 'Quicksand', sans-serif;
+    }
+html{scroll-behavior: smooth;}
+body{box-sizing: border-box;margin: 0px;}
+/*-->Header<--*/
+/*Menu*/
+.header {
+    padding: 10px;
+    text-align: center;
+    background: rgb(247, 206, 206);
+    color: #922222
+}
+
+.header h1 {
+    font-size: 40px;
+}
+
+.header p {
+    font-size: 20px;
+}
+
+/* Style the top navigation bar */
+.topnav {
+    overflow: hidden;
+    background-color: #941c1c;margin-bottom: 50px;
+}
+
+/* Định dạng link điều hướng */
+.topnav a {
+    float:left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Thay đổi màu liên kết khi di chuột qua */
+.topnav a:hover {
+    background-color: #9da9db;
+    color: rgb(25, 7, 58);
+}
+
+.dk>h3{padding-top: 10px;text-align: center;color:#F05454;font-size: 28px;}
+.dk{width: 40%;margin:  auto;background-color: pink;padding: 20px;border-radius:5px ;}
+.dk .login{display: flex;
+flex-direction: column;}
+.dk .login input{padding: 15px;border: 1px solid gray;outline: none; margin-top: 20px;}
+.dk .login button{padding: 15px;margin-top: 20px;border: 1px solid gray;outline: none;
+    background-color:white;color: rgb(69, 151, 245);font-weight: bold;font-size: 15px;}
+.dk .login a{text-decoration: none;text-align: right;margin-top: 10px;}
+.dk .login button:hover{
+    background-color: rgb(36, 43, 43);color: white;transition: all 2s linear;
+}
+.dk .login input:focus{border: 3px solid #D9D7F1;}
+.dk .login input:hover{background-color: rgb(205, 245, 245);}
+.dk .login a{color: black;}
+.dk .login a b:hover{color:#F05454;}
+/* Footer */
+.footer {
+    clear: both;
+    padding: 10px;
+    text-align: center;
+    background: rgb(247, 206, 206);
+    margin-top: 10px;
+}
+.card {
+    background-color: rgb(245, 102, 102);
+    padding: 20px;
+    margin-top: 20px;
+    text-align:center;
+}
+
+.card-news:hover {
+    transition: all .1s linear;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+    transform: scale(1.05);
+}
